@@ -1,0 +1,68 @@
+.img2{
+    height: 50px;
+    margin: 10px;
+}
+.expert-para{
+    font-weight: 650;
+}
+.why-choose-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+    margin: 20px; /* Margin around the card */
+    width: 450px; /* Width of the card */
+    font-size: 16px; /* Font size of the content */
+    height: 250px;
+}
+.why-choose-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+.why-choose-card-bg-container{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+
+}
+.why-choose-us-main-bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.level-container{
+    display:flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+    width: 220px;
+    justify-content: space-between;
+    border-top: 3px solid rgb(2, 5, 81) ;
+    margin: 4px;
+}
+.level-para-container{
+    font-weight: 650;
+}
+.img3{
+    height: 40px;
+}
+.whychooseus-below-container{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+@media (max-width:767px) {
+    .whychooseus-below-container{
+        flex-wrap: wrap;
+    }
+    .why-choose-card-bg-container{
+        flex-wrap: wrap;
+    }
+}

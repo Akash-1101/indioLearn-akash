@@ -1,0 +1,74 @@
+.nav-bar-container{
+    background-color: rgb(2, 5, 81);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 30px;
+    width: 100vw;
+}
+.nav-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.company-name-para{
+    font-size: 25px;
+    font-weight: 650;
+}
+.login-btn-container1{
+    background-color: white;
+    padding:4px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(2, 5, 81);
+    font-weight: 500;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+}
+.login-btn-container2{
+    display: flex;
+    background-color: white;
+    padding:4px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(2, 5, 81);
+    font-weight: 500;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+}
+.img4{
+    
+    display: none;
+
+}
+.moblie-view{
+    display: none;
+}
+@media (max-width:676px) {
+    .moblie-view{
+        display: block;
+        background-color: rgb(2, 5, 81);
+        color: white;
+        padding: 20px;
+        width: 100vw;
+    }
+    .nav-items-container{
+        display: none;
+    }
+    .login-btn-container1{
+        display: none;
+    }
+    .img4{
+        display: block;
+        height: 40px;
+    }
+}

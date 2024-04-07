@@ -1,0 +1,79 @@
+.become-bg-container{
+    background-color: aliceblue;
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+}
+.become-card1{
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    height: 80px;
+    font-weight: 650;
+}
+.bc-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.con1{
+    width: 55%;
+}
+/* Style for the card container */
+.card {
+    background-color: #ffffff; /* Background color of the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+    margin: 20px; /* Margin around the card */
+    width: 45%; /* Width of the card */
+    font-size: 16px; /* Font size of the content */
+    height: 250px;
+    color: #333333; 
+    text-align: center;
+    border-top: 3px solid rgb(2, 5, 81) ;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+  }
+  .inputEl{
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(240, 236, 229);
+    padding: 10px;
+    margin: 5px;
+  }
+  .submit-btn{
+    background-color: rgb(2, 5, 81);
+    color: white;
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+  }
+  .img1{
+    height: 30px;
+  }
+.download-btn{
+    background-color:  white;
+    color:rgb(2, 5, 81);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: 650;
+}
+.download-btn-container{
+    display: flex;
+    align-items: center;
+    margin-top:20px;
+}
+@media (max-width:767px) {
+    .become-bg-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .bc-container{
+      flex-wrap: wrap;
+    }
+}
